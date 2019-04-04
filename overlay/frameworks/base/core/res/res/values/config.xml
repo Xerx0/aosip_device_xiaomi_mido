@@ -607,7 +607,15 @@
      This value will be used during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
-    <!-- Component name for default assistant on this device -->
+    <bool name="config_proximityCheckOnFingerprintWake">true</bool>
+
+    <!-- Alternate ambient display-->
+    <bool name="config_alt_ambient_display">true</bool>
+
+    <!-- Lawnstep -->
+    <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
+	
+	<!-- Component name for default assistant on this device -->
     <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
 
 </resources>
