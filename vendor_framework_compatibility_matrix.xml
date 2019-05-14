@@ -449,5 +449,5 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>IColor</name>
             <instance>default</instance>
         </interface>
-
+    </hal>
 </compatibility-matrix>
