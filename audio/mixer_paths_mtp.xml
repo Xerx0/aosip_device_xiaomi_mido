@@ -1200,6 +1200,10 @@
         <ctl name="ADC2 MUX" value="INP2" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
     </path>
+    
+    <path name="hph-lowpower-mode">
+        <ctl name="RX HPH Mode" value="CLS_H_LOHIFI" />
+    </path>
 
     <path name="sub-mic">
         <path name="adc3" />
