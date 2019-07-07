@@ -17,6 +17,7 @@
 DEVICE_PATH := device/xiaomi/mido
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+ANDROID_TOP := $(shell pwd)
 
 # Architecture
 TARGET_ARCH := arm64
