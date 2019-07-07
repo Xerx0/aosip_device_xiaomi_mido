@@ -15,7 +15,7 @@ sudo apt-get install ccache && prebuilts/misc/linux-x86/ccache/ccache -M 65G
 export USE_CCACHE=1
 
 # LOS Settings (sometimes build needs that)
-git clone https://github.com/LineageOS/android_packages_resources_devicesettings -bpp lineage-16.0 packages/resources/devicesettings
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-16.0 packages/resources/devicesettings
 
 # Mido setup
 git clone https://github.com/Xerx0/aosip_proprietary_vendor_xiaomi -b lineage-16.0 vendor/xiaomi
