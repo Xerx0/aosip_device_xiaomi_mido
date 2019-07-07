@@ -21,7 +21,9 @@ git clone https://github.com/LineageOS/android_packages_resources_devicesettings
 git clone https://github.com/Xerx0/aosip_proprietary_vendor_xiaomi -b lineage-16.0 vendor/xiaomi
 git clone https://github.com/dracarys18/NotKernel -b pie kernel/xiaomi/msm8953
 
-#Remove AOSIP/POSP dependencies
+# Remove AOSIP/POSP dependencies
 sudo rm -r vendor/aosip/build/tools/roomservice.py
 sudo rm -r vendor/potato/build/tools/roomservice.py
 
+# Custom GCC
+git clone https://github.com/Xerx0/aarch64-linux-gnu-8.x prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.x/
