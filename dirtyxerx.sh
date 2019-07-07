@@ -11,7 +11,7 @@ git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-16
 git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-16.0-caf-8996 hardware/qcom/display-caf/msm8996 
 
 # Set CCache
-sudo apt-get install ccache && prebuilts/misc/linux-x86/ccache/ccache -M 15G
+sudo apt-get install ccache && prebuilts/misc/linux-x86/ccache/ccache -M 65G
 export USE_CCACHE=1
 
 # LOS Settings (sometimes build needs that)
