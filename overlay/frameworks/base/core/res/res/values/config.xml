@@ -609,9 +609,6 @@
 
     <bool name="config_proximityCheckOnFingerprintWake">true</bool>
 
-    <!-- Alternate ambient display-->
-    <bool name="config_alt_ambient_display">true</bool>
-
     <!-- Lawnstep -->
     <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
 	
