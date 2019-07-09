@@ -492,7 +492,3 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
     group system
     disabled
     oneshot
-
-on property:init.svc.qcom-post-boot=stopped
-    # Set min gpu freq as 320mhz
-    write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 320000000
