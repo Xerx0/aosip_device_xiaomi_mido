@@ -196,28 +196,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.min.fling_velocity=160 \
 ro.max.fling_velocity=20000
 
-#perf optimisation
-
-PRODUCT_PROPERTY_OVERRIDES += \
-
-com.qc.hardware=true \
-debug.composition.type=gpu \
-debug.egl.hw=1 \
-debug.egl.profiler=1 \
-debug.enabletr=true \
-debug.gralloc.enable_fb_ubwc=1 \
-debug.overlayui.enable=1 \
-debug.performance.tuning=1 \
-debug.qc.hardware=true \
-debug.qctwa.preservebuf=1 \
-debug.qctwa.statusbar=1 \
-debug.sf.hw=1 \
-debug.sf.latch_unsignaled=1 \
-dev.pm.dyn_samplingrate=1 \
-hw3d.force=1 \
-hwui.disable_vsync=true \
-hwui.render_dirty_regions=false \
-ro.config.enable.hw_accel=true \
-ro.fb.mode=1 \
-ro.product.gpu.driver=1 \
-ro.sf.compbypass.enable=0 
