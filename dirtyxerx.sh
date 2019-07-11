@@ -19,7 +19,7 @@ git clone https://github.com/LineageOS/android_packages_resources_devicesettings
 
 # Mido setup
 git clone https://github.com/Xerx0/aosip_proprietary_vendor_xiaomi -b lineage-16.0 vendor/xiaomi
-git clone https://github.com/dracarys18/NotKernel -b pie kernel/xiaomi/msm8953
+git clone https://github.com/penglezos/android_kernel_xiaomi_msm8953 -b pie kernel/xiaomi/msm8953
 
 # Remove AOSIP/POSP dependencies
 sudo rm -r vendor/aosip/build/tools/roomservice.py
